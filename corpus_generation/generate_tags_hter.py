@@ -23,7 +23,7 @@ def parse_args():
     parser.add_argument('--tgt_tc', type=str, default='')
     parser.add_argument('--token', dest='token', action='store_true')
     parser.add_argument('--truecase', dest='truecase', action='store_true')
-    parser.add_argument('--gaps', dest='truecase', action='store_true')
+    parser.add_argument('--gaps', dest='gaps', action='store_true')
     parser.set_defaults(token=True)
     parser.set_defaults(truecase=False)
     parser.set_defaults(gaps=False)
